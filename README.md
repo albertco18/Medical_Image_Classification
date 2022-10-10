@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Capstone3
 ==============================
 
@@ -55,3 +56,6 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+=======
+# Medical_Image_Classification
+>>>>>>> ecf08cd6ad15b60f1360d4e570141c1b3dc6aa7f
