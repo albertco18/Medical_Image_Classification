@@ -20,13 +20,12 @@ In this project, PyTorch is used to create and train Convolutional Neural Networ
 # What is Pneumonia?  <a class="anchor" id="intro"></a>
 
 Before we dive into the data, let's take a brief look at medical condition we will be trying to diagnose. 
-> If you are already an expert, feel free to skip ahead using the Table of Contents!
-
+> If you are already an expert, feel free to skip ahead!
 
 
 Pneumonia is an infection that affects one or both lungs. Potential causes include Bacteria, Viruses, or Fungi. Here is a visual from the National of Health which depicts some of its characteristics. 
 
-![PneumoniaNIH.png](attachment:PneumoniaNIH.png)
+![PneumoniaNIH.png](report-pics/PneumoniaNIH.png)
 
 
 
