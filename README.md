@@ -31,7 +31,7 @@ Pneumonia is an infection that affects one or both lungs. Potential causes inclu
 
 A quick google search will show you that Pneumonia is very common in the United States and around the world. People under 2 or over 65 are more likely to be at risk, but all ages can be affected. 
 
-![3milCases.png](attachment:3milCases.png)
+![3milCases.png](report_pics/3milCases.png)
 
 Symptoms include:
 * Cough and Chest Pain
@@ -73,7 +73,7 @@ The training dataset consisted of 5216 Images:
 Much of the data work explored ways to address this class imbalance. 
 
 
-![classesRaw.png](attachment:classesRaw.png)
+![classesRaw.png](report_pics/classesRaw.png)
 
 Here is an example of an image from our training data. 
 
@@ -81,13 +81,13 @@ Here is an example of an image from our training data.
 
 I am not a doctor, so I had no idea how the scans currenly are used. The following illustration came from the Mayo Clinic's "Pneumonia Diagnosis and Treatment" page, and includes a description of what a doctor looks for in an X-Ray to diagnose Pneumonia.
 
-![mayoXray2.png](attachment:mayoXray2.png)
+![mayoXray2.png](report_pics/mayoXray2.png)
 
 Lets take a look at some more examples of our training data, along with their labels. 
 
-![normal5.png](attachment:normal5.png)
+![normal5.png](report_pics/normal5.png)
 
-![pneumo5.png](attachment:pneumo5.png)
+![pneumo5.png](report_pics/pneumo5.png)
 
 To my untrained eye, I have a hard time seeing any clear differences between the first row of images and the second row of images. They all just look like X-Rays to me!
 
@@ -105,7 +105,7 @@ As an example, here is a grid 4 images which used a composition including
 * Random Resized Cropping
 * Rotations of up to 60°
 
-![4funSmall.png](attachment:4funSmall.png)
+![4funSmall.png](report_pics/4funSmall.png)
 
 They don’t look very similar to the original data. It should be noted that having such dramatic transformations isn't always bad for model performance. Still, for this project we tried to avoid this.
 
@@ -114,7 +114,7 @@ Instead, we used compositions of transforms which adjusted or added things like
 * Blur
 * Minor Rotations
 
-![4betterSmall.png](attachment:4betterSmall.png)
+![4betterSmall.png](report_pics/4betterSmall.png)
 
 These much more closely resemble the original data.
 
@@ -144,13 +144,13 @@ Typically, a much larger dataset is required to train a model from scratch. We u
 
 ### CNN from scratch 
 
-![baseline%20model%20slide.png](attachment:baseline%20model%20slide.png)
+![baseline%20model%20slide.png](report_pics/baseline%20model%20slide.png)
 
 ### Transfer Learning with Resnet18 and Resnet50
 
-![bestmodel.png](attachment:bestmodel.png)
+![bestmodel.png](report_pics/bestmodel.png)
 
-![altModel.png](attachment:altModel.png)
+![altModel.png](report_pics/altModel.png)
 
 ## Remarks on Model Performance
 
