@@ -25,7 +25,7 @@ Before we dive into the data, let's take a brief look at medical condition we wi
 
 Pneumonia is an infection that affects one or both lungs. Potential causes include Bacteria, Viruses, or Fungi. Here is a visual from the National of Health which depicts some of its characteristics. 
 
-![PneumoniaNIH.png](report-pics/PneumoniaNIH.png)
+![PneumoniaNIH.png](report_pics/PneumoniaNIH.png)
 
 
 
