@@ -77,7 +77,7 @@ Much of the data work explored ways to address this class imbalance.
 
 Here is an example of an image from our training data. 
 
-![exampleimg.png](attachment:exampleimg.png)
+![exampleimg.png](report_pics/exampleimg.png)
 
 I am not a doctor, so I had no idea how the scans currenly are used. The following illustration came from the Mayo Clinic's "Pneumonia Diagnosis and Treatment" page, and includes a description of what a doctor looks for in an X-Ray to diagnose Pneumonia.
 
@@ -124,7 +124,7 @@ As you can see in the rows of images earlier, the images are not all the same si
 
 With this, our data was ready to be batched for training. Below is an example of a batch with size 16. 
 
-![batchexample.png](attachment:batchexample.png)
+![batchexample.png](report_pics/batchexample.png)
 
 # Modeling <a class="anchor" id="chapter2"></a>
 
